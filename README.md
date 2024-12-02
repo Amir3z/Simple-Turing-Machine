@@ -20,8 +20,8 @@ The machine starts at the initial state with the head at the beginning of the ta
 
 The program expects a text file (`input.txt`) with the following format:
 
-1. **Line 1:** Number of states (`N`).
-2. **Line 2:** Number of transitions (`T`).
+1. **Line 1:** Number of states.
+2. **Line 2:** Number of transitions.
 3. **Line 3:** ID of the accepting state.
 4. **Line 4:** ID of the rejecting state.
 5. **Lines 5+:** Transitions in the format:
