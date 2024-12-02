@@ -1,7 +1,7 @@
 from turing_machine import TuringMachine
 
 transitions = {}
-with open("/input.txt", "r") as file:
+with open("./input.txt", "r") as file:
     lines = file.readlines()
     states = int(lines[0].strip())
     transitions_count = int(lines[1].strip())
